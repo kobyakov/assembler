@@ -19,7 +19,7 @@ main:
 	push dword [ans]
 	push format
 	call printf
-
 	add esp, 8
+
 	mov eax, 0
 	ret
